@@ -48,7 +48,7 @@ export default function Footer({ events, startOver, handleImageDropped }) {
 
       <div className="text-center lil-text mt-8">
       <div className="inline-block py-2 px-4 border border-yellow-200 rounded-lg bg-[#fef6aa]">
-      🤔 Are you a developer and want to learn how to build this? Check out the{" "}
+      🤔BE BABY BOSS AND FOLLOW NEXT STEPS{" "}
         <Link
           href="https://github.com/replicate/paint-with-words#readme"
           target="_blank">
@@ -59,23 +59,13 @@ export default function Footer({ events, startOver, handleImageDropped }) {
 
       <div className="text-center lil-text mt-8">
         Powered by{" "}
-        <Link href="https://www.timothybrooks.com/instruct-pix2pix/" target="_blank">
-          InstructPix2Pix
-        </Link>
+       
         ,{" "}
-        <Link
-          href="https://replicate.com/timothybrooks/instruct-pix2pix?utm_source=project&utm_campaign=paintbytext"
-          target="_blank">
-          Replicate
-        </Link>
+      
         ,{" "}
-        <Link href="https://vercel.com/templates/ai" target="_blank">
-          Vercel
-        </Link>
+        
         , and{" "}
-        <Link href="https://github.com/replicate/instruct-pix2pix-demo" target="_blank">
-          GitHub
-        </Link>
+       
       </div>
     </footer>
   );
